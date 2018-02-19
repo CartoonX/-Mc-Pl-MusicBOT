@@ -1,7 +1,7 @@
 {
   "name": "SupahBot",
   "description": "Discord bot for music playback via youtube, and more.",
-  "repository": "https://github.com/razum90/SupahBot",
+  "repository": "https://github.com/CartoonX/-Mc-Pl-MusicBOT",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["bot", "heroku", "music-playback", "discord", "javascript", "node", "youtube"],
   "env": {
