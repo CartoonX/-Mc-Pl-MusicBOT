@@ -168,10 +168,6 @@ function registerService(service, affectedCommands) {
   return service;
 }
 
-function init() {
-  Helper.keys('apikeys', ['discord']).then(keys => {
-    Bot.login(NDE1MTA2ODY0NzEyMzg0NTEy.DWxGDw.CZuIMDxx4IVyrWdbi_2TVfiLUTI);
-
     Queue = registerService(Queue, ['!queue', '!voteskip', '!song']);
     TrackHelper = registerService(TrackHelper, ['!queue', '!video']);
     WordService = registerService(WordService, ['!words']);
@@ -180,3 +176,6 @@ function init() {
 }
 
 init();
+
+
+client.login(process.env.BOT_TOKEN);
