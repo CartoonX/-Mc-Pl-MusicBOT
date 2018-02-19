@@ -170,7 +170,7 @@ function registerService(service, affectedCommands) {
 
 function init() {
   Helper.keys('apikeys', ['discord']).then(keys => {
-    Bot.login(BOT_TOKEN);
+    Bot.login(NDE1MTA2ODY0NzEyMzg0NTEy.DWxGDw.CZuIMDxx4IVyrWdbi_2TVfiLUTI);
 
     Queue = registerService(Queue, ['!queue', '!voteskip', '!song']);
     TrackHelper = registerService(TrackHelper, ['!queue', '!video']);
